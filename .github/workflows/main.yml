@@ -27,11 +27,11 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-      - name: Load Secrets
+
+      - name: Run Automation Task
         env:
           USERNAME: ${{ secrets.USERNAME }}
           PASSWORD: ${{ secrets.PASSWORD }}
-      - name: Run Automation Task
         run: |
           python ./temperature.py 36.2
           python ./temperature.py -c
