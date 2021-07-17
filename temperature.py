@@ -1,5 +1,6 @@
 import requests
 import sys
+import os
 from bs4 import BeautifulSoup
 from datetime import datetime
 from getopt import getopt
@@ -86,8 +87,8 @@ def readUsernamePassword():
     username = input('Username (nusstu\e0123456): ')
     password = getpass('Password: ')
 	'''
-	username = os.environ["USERNAME"]
-	password = os.environ["PASSWORD"]
+	username = os.environ['USERNAME']
+	password = os.environ['PASSWORD']
     return username, password
 
 
