@@ -4,6 +4,7 @@ A quick little python script I wrote to help with my temperature declaration at 
 
 ![Screenshot of using the temperature script](./screenshot.png)
 
+
 ## Usage
 
 The python package `beautifulsoup4` needs to be installed beforehand; you can install it using `pip3 install beautifulsoup4`.
