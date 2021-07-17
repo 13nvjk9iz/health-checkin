@@ -87,8 +87,8 @@ def readUsernamePassword():
     username = input('Username (nusstu\e0123456): ')
     password = getpass('Password: ')
 	'''
-	username = os.environ['USERNAME']
-	password = os.environ['PASSWORD']
+    username = os.environ['USERNAME']
+    password = os.environ['PASSWORD']
     return username, password
 
 
